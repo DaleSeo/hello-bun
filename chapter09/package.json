@@ -1,5 +1,5 @@
 {
-  "name": "tasks",
+  "name": "bun-file",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,8 +7,5 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "elysia": "^1.1.5"
   }
 }
