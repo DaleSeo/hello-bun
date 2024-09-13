@@ -1,15 +1,13 @@
-# chapter12
+# Bun으로 프로젝트 빌드하기
 
-To install dependencies:
+## 의존 패키지 설치
 
-```bash
-bun install
+```sh
+$ bun install
 ```
 
-To run:
+## 프로젝트 빌드
 
-```bash
-bun run index.ts
+```sh
+$ bun build ./src/index.tsx --outdir ./dist
 ```
-
-This project was created using `bun init` in bun v1.1.26. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
