@@ -19,6 +19,7 @@ test("GET /tasks", async () => {
 
 test("POST /tasks", async () => {
   const createTask = spyOn(TaskService.prototype, "createTask");
+  createTask.mockImplementation(() => {});
 
   const response = await app.handle(
     new Request("http://localhost/tasks", {
@@ -52,6 +53,7 @@ test("GET /tasks/:id", async () => {
 
 test("DELETE /tasks/:id", async () => {
   const deleteTask = spyOn(TaskService.prototype, "deleteTask");
+  deleteTask.mockImplementation(() => {});
 
   const response = await app.handle(
     new Request("http://localhost/tasks/3", {
@@ -67,6 +69,7 @@ test("DELETE /tasks/:id", async () => {
 
 test("PUT /tasks/:id", async () => {
   const updateTask = spyOn(TaskService.prototype, "updateTask");
+  updateTask.mockImplementation(() => {});
 
   const response = await app.handle(
     new Request("http://localhost/tasks/3", {
