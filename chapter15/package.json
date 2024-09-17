@@ -1,0 +1,16 @@
+{
+  "name": "chapter15",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/uuid": "^10.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0",
+    "waait": "^1.0.5"
+  }
+}
