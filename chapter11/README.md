@@ -1,15 +1,13 @@
-# chapter11
+# Bun으로 테스트하기
 
-To install dependencies:
+## 의존 패키지 설치
 
-```bash
-bun install
+```sh
+$ bun install
 ```
 
-To run:
+## 예제 테스트 실행
 
-```bash
-bun run index.ts
+```sh
+$ bun test <파일명>
 ```
-
-This project was created using `bun init` in bun v1.1.27. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

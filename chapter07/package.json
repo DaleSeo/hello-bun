@@ -1,0 +1,16 @@
+{
+  "name": "chapter07",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "elysia": "^1.1.12",
+    "express": "^4.21.0"
+  }
+}
