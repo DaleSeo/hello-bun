@@ -1,1 +1,3 @@
-# Hello Bun
+# 헬로 Bun 🥟
+
+Coming soon! 😉
