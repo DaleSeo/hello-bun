@@ -17,3 +17,9 @@ $ bun init -y
 ```sh
 $ bun create vue
 ```
+
+## Next.js 프로젝트 만들기
+
+```sh
+$ bun create next-app
+```
