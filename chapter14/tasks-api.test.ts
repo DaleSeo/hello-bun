@@ -3,7 +3,8 @@ import { app } from "./tasks-api";
 import { TaskService } from "./tasks-service";
 
 test("GET /tasks", async () => {
-  const findTasks = spyOn(TaskService.prototype, "findTasks").mockReturnValue([
+  const findTasks = spyOn(TaskService.prototype, "findTasks");
+  findTasks.mockReturnValue([
     { id: 1, title: "먹기" },
     { id: 2, title: "자기" },
   ]);
@@ -38,7 +39,8 @@ test("POST /tasks", async () => {
 });
 
 test("GET /tasks/:id", async () => {
-  const findTask = spyOn(TaskService.prototype, "findTask").mockReturnValue({
+  const findTask = spyOn(TaskService.prototype, "findTask");
+  findTask.mockReturnValue({
     id: 3,
     title: "놀기",
   });
